@@ -1,0 +1,2 @@
+[console_scripts]
+qr_nlp = qr_nlp.cli:main
