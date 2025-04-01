@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: qr_nlp
+Version: 0.1.0
+Summary: QR Code Detection with NLP Processing
+Home-page: https://github.com/yourusername/qr_nlp
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python>=4.5.0
+Requires-Dist: pyzbar>=0.1.9
+Requires-Dist: Pillow>=8.0.0
+Requires-Dist: nltk>=3.5
+Requires-Dist: spacy>=3.0.0
+Requires-Dist: langdetect>=1.0.0
+Requires-Dist: numpy>=1.19.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# QR NLP Detector
+
+A Python library for detecting QR codes with NLP processing capabilities.
+
+## Features
+
+- QR Code detection from images and live camera
+- QR Code generation
+- NLP processing of QR code contents:
+  - Language detection
+  - Sentiment analysis
+  - Keyword extraction
+  - Text summarization
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+python setup.py install
+```
+
+## Basic Usage
+
+```python
+from qr_nlp import read_qr_from_image, process_qr_content
+
+# Read QR code from image
+qr_text = read_qr_from_image("sample.png")
+
+# Process QR content with NLP
+results = process_qr_content(qr_text)
+print(results)
+```
+
+## Examples
+
+See the `examples/` directory for complete usage examples.
+
+## Requirements
+
+- Python 3.6+
+- OpenCV
+- pyzbar
+- NLTK
+- spaCy
+
+## License
+
+MIT
