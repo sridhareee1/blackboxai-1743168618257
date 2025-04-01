@@ -1,0 +1,16 @@
+README.md
+setup.py
+qr_nlp/__init__.py
+qr_nlp/config.py
+qr_nlp/exceptions.py
+qr_nlp/nlp_processor.py
+qr_nlp/qr_detector.py
+qr_nlp/utils.py
+qr_nlp.egg-info/PKG-INFO
+qr_nlp.egg-info/SOURCES.txt
+qr_nlp.egg-info/dependency_links.txt
+qr_nlp.egg-info/entry_points.txt
+qr_nlp.egg-info/requires.txt
+qr_nlp.egg-info/top_level.txt
+tests/test_nlp.py
+tests/test_qr_detection.py
